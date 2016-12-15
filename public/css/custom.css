@@ -1,0 +1,143 @@
+.dropdown:hover .dropdown-menu {
+  background-color: #df0174;
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown:hover {
+  background-color: #df0174;
+  border: 5px solid black;
+}
+
+ul.dropdown-menu a {
+  padding: 20px;
+}
+
+footer {
+  color: #777;
+  background: #222;
+  border-top: 2px solid #444;
+  padding: 44px 0 0 0;
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+#footerLogo {
+  margin-bottom: 22px;
+}
+
+.footerWidget {
+  margin-bottom: 22px;
+}
+
+ul.socialNetwork {
+  padding: 0;
+  display: block;
+  margin-bottom: 0;
+}
+
+.iconRounded {
+  color: #525252;
+  border: 1px solid #525252;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+}
+
+#slideshow {
+  margin: 50px auto;
+  position: relative;
+  width: 240px;
+  height: 240px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+#slideshow>div {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+.slider-arrow {
+  padding: 5px;
+  width: 10px;
+  float: left;
+  background: #d9dada;
+  font: 400 12px Arial, Helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  left: -300px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  /*top: 0;*/
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

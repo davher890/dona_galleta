@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  div.container
+    div.row
+      - for (var i = 0; i < data.length; ++i) {
+        div.col-xs-18.col-sm-6.col-md-4
+          div.thumbnail
+            img#myImg(src= data[i].img alt="Card image" style='width:200px;height:200px' onclick='showModal(this)')
+            div.caption
+              h4= data[i].nombre
+              p= data[i].descripcion
+      - }
+

@@ -1,0 +1,32 @@
+//extends layout
+
+//block content
+
+//link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+//link(rel='stylesheet', href='/css/font-awesome.css')
+//link(rel='stylesheet', href='/css/image-modal.css')
+//
+//script(src='/bower_components/jquery/dist/jquery.js')
+//script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+//script(src='/js/imageModal.js')
+
+div.container
+    div.row
+        #myCarousel.carousel.slide(data-ride='carousel')
+            // Indicators
+            ol.carousel-indicators
+                li.active(data-target='#myCarousel', data-slide-to='0')
+                li(data-target='#myCarousel', data-slide-to='1')
+            // Wrapper for slides
+            .carousel-inner(role='listbox')
+                .item.active
+                    img(style="margin-left: auto; margin-right: auto;" src='http://www.paisajesbonitos.org/wp-content/uploads/2015/11/paisajes-bonitos-de-oto%C3%B1o-lago.jpg', alt='Chania', width='460', height='345')
+                .item
+                    img(style="margin-left: auto; margin-right: auto;" src='http://img0.es.ndsstatic.com/wallpapers/78642d8563a081c487d659c5038c932b_large.jpeg', alt='Flower', width='460', height='345')
+            // Left and right controls
+            a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+                span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+                span.sr-only Previous
+            a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+                span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+                span.sr-only Next
