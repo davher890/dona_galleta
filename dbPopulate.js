@@ -11,12 +11,10 @@ var config = {
 
 firebase.initializeApp(config);
 
-var hombreJson = dbJson.hombre;
-for (var i = 0; i < hombreJson.length; i++) {
-    firebase.database().ref('hombre/'+i).set(hombreJson[i]);
-}
+var keys = Object.keys(dbJson);
+for (var i = 0; i < keys.length; i++) {
 
-var mujerJson = dbJson.mujer;
-for (var i = 0; i < hombreJson.length; i++) {
-    firebase.database().ref('mujer/'+i).set(mujerJson[i]);
+    var key = keys[i];
+    var json = dbJson[key];
+    firebase.database().ref(key).set(json);
 }

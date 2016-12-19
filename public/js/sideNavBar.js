@@ -1,11 +1,11 @@
 function openNav(type) {
-    $("#mySidenav").empty();
-    $("#mySidenav").append("<a class='closebtn' onclick=closeNav()>&times</a>");
-    $("#mySidenav").css('width', '250px');
+    $("#navigationMenu").empty();
     var typeArray = typeMenu[type];
     for (var i = 0; i < typeArray.length; i++) {
-        $("#mySidenav").append('<a href="/galeria?tipo="+typeArray[i][0]>' + typeArray[i][1] + '</a>');
+        $("#navigationMenu").append("<a class='mdl-navigation__link' href=/galeria/"+typeArray[i][0]+">" + typeArray[i][1] + "</a>");
     }
+    $("#navigationTitle").text(type);
+    $(".mdl-layout__drawer-button").click();
 }
 
 function closeNav() {

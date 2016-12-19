@@ -1,103 +1,100 @@
 {
-    "hombre": [{
-        "tipo": "Camiseta",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "rojo",
-        "precio": "23",
-        "img": "http://www.desafiointerior.es/media/catalog/product/c/a/camiseta_interior_t_rmica_impetus_1_.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }],
-
-    "mujer": [{
-        "tipo": "Camiseta",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "rojo",
-        "precio": "23",
-        "img": "http://www.desafiointerior.es/media/catalog/product/c/a/camiseta_interior_t_rmica_impetus_1_.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }, {
-        "tipo": "Pantalon",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "azul",
-        "precio": "45",
-        "img": "http://static.kiabi.es/images/pantalon-pitillo-chino-elastico-verde-hombre-td458_38_lpr1.jpg"
-    }, {
-        "tipo": "Zapatos",
-        "nombre": "Camistea de hombre color rojo",
-        "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
-        "color": "negro",
-        "precio": "168",
-        "img": "http://mla-s1-p.mlstatic.com/calzado-de-vestir-hombres-cuero-legitimo-zapatos-masculinos-12881-MLA20067033293_032014-F.jpg"
-    }]
+  "braguitas": [
+    {
+      "tipo": "Braguita 1",
+      "nombre": "Nombre del articulo",
+      "descripcion": "Descripcion del articulo",
+      "precio": 99,
+      "img": [
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0273.JPG?alt=media&token=c5915527-3053-4501-b691-e13383077377",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0274.JPG?alt=media&token=f539f9b6-9231-435f-8729-938b5d4b143a",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0275.JPG?alt=media&token=57065ac5-513d-494c-af3a-472eca5ba7ee",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0276.JPG?alt=media&token=fb8bf617-1543-46bf-96ae-a75f11217335"
+      ]
+    },
+    {
+      "tipo": "Braguita 2",
+      "nombre": "Nombre del articulo",
+      "descripcion": "Descripcion del articulo",
+      "precio": 99,
+      "img": [
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0309.JPG?alt=media&token=2f4dee71-5cc7-4839-9c53-84abb18f21b9",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0314.JPG?alt=media&token=6396a7e5-ff1c-4647-a832-c58da80e5569"
+      ]
+    },
+    {
+      "tipo": "Braguita 3",
+      "nombre": "Nombre del articulo",
+      "descripcion": "Descripcion del articulo",
+      "precio": 99,
+      "img": [
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0318.JPG?alt=media&token=6fdb9a1a-7de6-4def-a52e-d5eb04c6fdfe",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0320.JPG?alt=media&token=b6baccca-72b8-4bc9-b984-b72118e8e0e9"
+      ]
+    },
+    {
+      "tipo": "Braguita 4",
+      "nombre": "Nombre del articulo",
+      "descripcion": "Descripcion del articulo",
+      "precio": 99,
+      "img": [
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0322.JPG?alt=media&token=8de49fe0-b3cf-4c55-8928-00f039c56cd4",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0325.JPG?alt=media&token=ab38eaa5-eb05-484c-8e9f-802feb895b95"
+      ]
+    },
+    {
+      "tipo": "Braguita 5",
+      "nombre": "Nombre del articulo",
+      "descripcion": "Descripcion del articulo",
+      "precio": 99,
+      "img": [
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0331.JPG?alt=media&token=f95a40fb-9497-4651-b8bd-52db72041546",
+        "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0334.JPG?alt=media&token=383801e9-5d43-417a-8fb9-91dc1c76b557"
+      ]
+    }
+  ],
+  "mamas": [
+    {
+      "tipo": "Camiseta",
+      "subtipo": "ddddd",
+      "nombre": "Camistea de hombre color rojo",
+      "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
+      "color": "rojo",
+      "precio": "23",
+      "img": "https://www.dropbox.com/s/dio01ct9yw469j1/DSC_0273.JPG?dl=0"
+    }
+  ],
+  "decoracion": [
+    {
+      "tipo": "Camiseta",
+      "subtipo": "ddddd",
+      "nombre": "Camistea de hombre color rojo",
+      "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
+      "color": "rojo",
+      "precio": "23",
+      "img": "https://www.dropbox.com/s/dio01ct9yw469j1/DSC_0273.JPG?dl=0"
+    }
+  ],
+  "cestas": [
+    {
+      "tipo": "Camiseta",
+      "subtipo": "ddddd",
+      "nombre": "Camistea de hombre color rojo",
+      "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
+      "color": "rojo",
+      "precio": "23",
+      "img": "https://www.dropbox.com/s/dio01ct9yw469j1/DSC_0273.JPG?dl=0"
+    }
+  ],
+  "pedidos": [
+    {
+      "tipo": "Camiseta",
+      "subtipo": "ddddd",
+      "nombre": "Camistea de hombre color rojo",
+      "descripcion": "Camiseta de hombre, todas las tallas y colores disponibles",
+      "color": "rojo",
+      "precio": "23",
+      "img": "https://www.dropbox.com/s/dio01ct9yw469j1/DSC_0273.JPG?dl=0"
+    }
+  ]
 }

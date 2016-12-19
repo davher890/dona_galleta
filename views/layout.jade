@@ -2,13 +2,19 @@ doctype html
 html
     head
         title= title
-        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+        //link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+        link(rel='stylesheet', href='/bower_components/material-design-lite/material.css')
+        link(rel='stylesheet', href='/bower_components/tether/dist/css/tether.css')
+        link(rel='stylesheet', href='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.css')
         link(rel='stylesheet', href='/css/custom.css')
         link(rel='stylesheet', href='/css/font-awesome.css')
         link(rel='stylesheet', href='/css/image-modal.css')
 
         script(src='/bower_components/jquery/dist/jquery.js')
-        script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+        //script(src='/bower_components/bootstrap/dist/js/bootstrap.js')
+        script(src='/bower_components/material-design-lite/material.js')
+        script(src='/bower_components/tether/dist/js/tether.js')
+        script(src='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.iife.js')
         script(src='/js/imageModal.js')
         script(src='/js/sideNavBar.js')
 
@@ -26,51 +32,12 @@ html
             };
             firebase.initializeApp(config);
     body
-        div.navbar.navbar-inverse(style='margin-bottom:0px')
-            div.container
-                div.navbar-header
-                    button.navbar-toggle(type='button' data-toggle='collapse' data-target='.main-nav' aria-expanded='false' aria-controle='navbar')
-                    a.navbar-brand(href="/") Doña Galleta
 
-                div.navbar-header(style="float:right")
-                    a.navbar-brand(onclick="changeContactFormVisibility()") Contacto
-                        img.hidden-xs(style="background-image: url('http://www.grupobarron.com.mx/imagenes/carta.png')")
+        //include header
 
-        div.navbar.navbar-default.navbar-static-top
-            div.container
-                div.navbar-header
-                    button.navbar-toggle.collapsed(type='button' data-toggle='collapse' data-target='#navbar')
-                        span.sr-only Toggle navigation
+        block content
 
-                div#navbar.navbar-collapse.collapse
-                    ul.nav.navbar-nav
-                        li
-                            a(href="#",onclick="openNav('bebes')") Bebés
-                        li.divider-vertical
-                        li
-                            a(href="#",onclick="openNav('mamas')") Mamás
-                        li.divider-vertical
-                        li
-                            a(href="#",onclick="openNav('decoracion')") Decoración
-                        li.divider-vertical
-                        li
-                            a(href="#",onclick="openNav('cestas')") Cestas
-                        li.divider-vertical
-                        li
-                            a(href="#",onclick="openNav('pedidos')") Pedidos
-                        li.divider-vertical
-                        li
-                            a(href="#",onclick="openNav('blog')") Blog
-                        li.divider-vertical
-
-        div#mySidenav.sidenav
-            a.closebtn(href="javascript:void(0)",onclick="closeNav()") &times;
-
-        //block content
-
-        include index
-
-        include footer
+        //include footer
 
         // The Modal
         #myModal.modal
@@ -81,41 +48,41 @@ html
         // Contact div
         #contactForm
             .container-fluid
-                    h2(style="cursor:default") Contact Us!
-                    hr
-                    form#contact_form.form-horizontal(action='mailto:someone@example.com', method='post')
-                        fieldset
-                            // Form Name
-                            // Text input
-                            .form-group
-                                .col-md-12
-                                    .input-group
-                                        span.input-group-addon
-                                            i.fa.fa-user
-                                        input.form-control(name='name', placeholder='Nombre', type='text')
-                            // Text input
-                            .form-group
-                                .col-md-12
-                                    .input-group
-                                        span.input-group-addon
-                                            i.fa.fa-mail-reply
-                                        input.form-control(name='email', placeholder='E-Mail', type='text')
-                            // Text input
-                            .form-group
-                                .col-md-12
-                                    .input-group
-                                        span.input-group-addon
-                                            i.fa.fa-phone
-                                        input.form-control(name='phone', placeholder='(+34)', type='text')
-                            // Text input
-                            .form-group
-                                .col-md-12.inputGroupContainer
-                                    .input-group
-                                        span.input-group-addon
-                                            i.fa.fa-archive
-                                        textarea.form-control(name='comment', placeholder='Message')
-                            .form-group
-                                .col-md-12
-                                    button.btn.btn-warning.pull-right(type='submit')
-                                        | Send
-                                        span.fa.fa-paper-plane
+                h2(style="cursor:default") Contact Us!
+                hr
+                form#contact_form.form-horizontal(action='mailto:someone@example.com', method='post')
+                    fieldset
+                        // Form Name
+                        // Text input
+                        .form-group
+                            .col-md-12
+                                .input-group
+                                    span.input-group-addon
+                                        i.fa.fa-user
+                                    input.form-control(name='name', placeholder='Nombre', type='text')
+                        // Text input
+                        .form-group
+                            .col-md-12
+                                .input-group
+                                    span.input-group-addon
+                                        i.fa.fa-mail-reply
+                                    input.form-control(name='email', placeholder='E-Mail', type='text')
+                        // Text input
+                        .form-group
+                            .col-md-12
+                                .input-group
+                                    span.input-group-addon
+                                        i.fa.fa-phone
+                                    input.form-control(name='phone', placeholder='(+34)', type='text')
+                        // Text input
+                        .form-group
+                            .col-md-12.inputGroupContainer
+                                .input-group
+                                    span.input-group-addon
+                                        i.fa.fa-archive
+                                    textarea.form-control(name='comment', placeholder='Message')
+                        .form-group
+                            .col-md-12
+                                button.btn.btn-warning.pull-right(type='submit')
+                                    | Send
+                                    span.fa.fa-paper-plane

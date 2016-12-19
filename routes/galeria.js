@@ -12,14 +12,12 @@ var config = {
 
 firebase.initializeApp(config);
 
-router.get('/galeria', function (req, res) {
+router.get('/galeria/:tipo', function (req, res) {
 
-    var param = req.query.tipo;
+    var param = req.params.tipo;
 
     // Get hombre data from firebase and show the data
-    // var jsonData = getDataFromFirebase():
-    console.log(param);
-    var galeria = firebase.database().ref('hombre/');
+    var galeria = firebase.database().ref(param+'/');
     galeria.on('value', function (data) {
         res.render('gallery', {
             data: data.val()
