@@ -33,7 +33,7 @@ html
     body
 
         //- include header
-        
+
         .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
             header.mdl-layout__header
                 .mdl-layout__header-row
@@ -51,17 +51,17 @@ html
                         a.mdl-navigation__link(href="#",onclick="openNav('blog', 'Blog')") Blog
             .mdl-layout__drawer
                 #navigationTitle.span.mdl-layout-title Title
-                nav#navigationMenu.mdl-navigation  
-                    
-            main.mdl-layout__content
+                nav#navigationMenu.mdl-navigation
+
+            main.mdl-layout__content(style="background-image: url('/img/tela-infantil-topos-jules-et-julie-jus19101114-237827.jpg');background-position:center; ")
                 .page-content
                     block content
-                    
-                    include footer        
+
+                    include footer
 
         // The Modal
         #myModal.modal
-            span.close ×
+            span.close(style="padding-top:inherit") ×
             img#img01.modal-content
             #caption
 

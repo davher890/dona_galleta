@@ -1,14 +1,14 @@
 extends layout
 
 block content
-    div.container
+    div.container-fluid(style="padding:2%")
         div.row
             - for (var i = 0; i < data.length; ++i) {
                 div.col-xs-18.col-sm-6.col-md-4
                     .card
                         // Card image
                         .view.overlay.hm-white-slight
-                            img.img-fluid(src=data[i].img[0] style='width:200px; height:200px; margin:auto' onclick='showModal(this)')
+                            img.img-fluid(src=data[i].img[0] style='margin:auto' onclick='showModal(this)')
                             a
                                 .mask.waves-effect.waves-light
                         // /Card image
@@ -16,6 +16,5 @@ block content
                         .card-block
                             // Title
                             h4.card-title= data[i].nombre
-                            h5 Photographer
                             p.card-text= data[i].descripcion
             - }
