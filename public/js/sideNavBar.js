@@ -1,10 +1,10 @@
-function openNav(type) {
+function openNav(type, name) {
     $("#navigationMenu").empty();
     var typeArray = typeMenu[type];
     for (var i = 0; i < typeArray.length; i++) {
-        $("#navigationMenu").append("<a class='mdl-navigation__link' href=/galeria/"+typeArray[i][0]+">" + typeArray[i][1] + "</a>");
+        $("#navigationMenu").append("<a class='mdl-navigation__link' href=/galeria/" + typeArray[i][0] + ">" + typeArray[i][1] + "</a>");
     }
-    $("#navigationTitle").text(type);
+    $("#navigationTitle").text(name);
     $(".mdl-layout__drawer-button").click();
 }
 
@@ -14,10 +14,27 @@ function closeNav() {
 }
 
 var typeMenu = {
-    bebes: [['chupeteros', 'Chupeteros'], ['braguitas', 'Braguitas'], ['manta', 'Manta'], ['toalla', 'Toalla'], ['cojin', 'Cojín']],
-    mamas: [['sujetadores', 'Sujetadores'], ['pulseras', 'Pulseras'], ['iguales', 'Iguales']],
-    decoracion: [['piezas_madera', 'Piezas madera'], ['luces', 'Luces'], ['cojin', 'Cojín']],
-    cestas: [['Recién nacido', 'recien_nacido'], ['recien_mama', 'Recién mamá']],
+    bebes: [
+        ['chupeteros', 'Chupeteros'],
+        ['braguitas', 'Braguitas'],
+        ['manta', 'Manta'],
+        ['toalla', 'Toalla'],
+        ['cojin', 'Cojín']
+    ],
+    mamas: [
+        ['sujetadores', 'Sujetadores'],
+        ['pulseras', 'Pulseras'],
+        ['iguales', 'Iguales']
+    ],
+    decoracion: [
+        ['piezas_madera', 'Piezas madera'],
+        ['luces', 'Luces'],
+        ['cojin', 'Cojín']
+    ],
+    cestas: [
+        ['recien_nacido', 'Recién nacido'],
+        ['recien_mama', 'Recién mamá']
+    ],
     pedidos: [],
     blog: []
 }
