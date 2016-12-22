@@ -2,12 +2,13 @@ doctype html
 html
     head
         title= title
-        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+        //link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
         link(rel='stylesheet', href='/bower_components/material-design-lite/material.css')
         link(rel='stylesheet', href='/bower_components/tether/dist/css/tether.css')
         link(rel='stylesheet', href='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.css')
-        link(rel='stylesheet', href='/css/custom.css')
-        link(rel='stylesheet', href='/css/bootstrap_custom.css')
+        //link(rel='stylesheet', href='/css/custom.css')
+        link(rel='stylesheet', href='/css/material.min.css')
+        //link(rel='stylesheet', href='/css/bootstrap_custom.css')
         link(rel='stylesheet', href='/css/font-awesome.css')
         link(rel='stylesheet', href='/css/image-modal.css')
 
@@ -34,12 +35,12 @@ html
     body
 
         //- include header
-
         .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
             header.mdl-layout__header
                 .mdl-layout__header-row
                     // Title
-                    span.mdl-layout-title Doña Galleta
+                    a(href="/")
+                        span.mdl-layout-title Doña Galleta
                     // Add spacer, to align navigation to the right
                     .mdl-layout-spacer
                     // Navigation
