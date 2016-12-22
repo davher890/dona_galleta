@@ -62,7 +62,8 @@ html
 
         // The Modal
         #myModal.modal
-            #carousel-example-1.carousel.slide.carousel-fade(data-ride='carousel')
+            span.close(style="padding:inherit") ×
+            #carousel-example-1.carousel.slide.carousel-fade(style='width:55%; height:55%; margin:auto;' data-ride='carousel')
                 ol.carousel-indicators
                 .carousel-inner(role='listbox')
 
@@ -72,6 +73,12 @@ html
                 a.right.carousel-control(href='#carousel-example-1', role='button', data-slide='next')
                     span.icon-next(aria-hidden='true')
                     span.sr-only Next
+
+            .container-fluid
+                .row
+                    .col-md-4.offset-md-4(style="color:white")
+                        h4.card-title
+                        p.card-text
 
         // Contact div
         #contactForm

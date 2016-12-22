@@ -10,22 +10,31 @@ function showModal(data) {
 
     var oldCarousel = $('#myModal').find('ol.carousel-indicators');
     var carouselInner = $('#myModal').find('.carousel-inner');
+    var modalTitle = $('#myModal').find('.card-title');
+    var modalText = $('#myModal').find('.card-text');
 
     var info = JSON.parse($(data).attr('data-data'));
+
+    modalTitle.html(info.nombre);
+    modalText.html(info.descripcion);
+
     var imgs = info.img;
 
+    var oldCarouselhtml = "";
+    var carouselInnerhtml = "";
     for (var i = 0; i < imgs.length; i++) {
+        oldCarouselhtml += "<li ";
+        carouselInnerhtml += "<div class='carousel-item ";
         if (i == 0) {
-            oldCarousel.append("<li class='active' data-target='#carousel-example-1' data-slide-to='" + i + "' />");
-            carouselInner.append("<div class='carousel-item active'><img style='margin:auto' src='" + imgs[i] + "'/></div>");
-        } else {
-            oldCarousel.append("<li data-target='#carousel-example-1' data-slide-to='" + i + "' />");
-            carouselInner.append("<div class='carousel-item'><img style='margin:auto' src='" + imgs[i] + "'/></div>");
+            oldCarouselhtml += "class='active'";
+            carouselInnerhtml += "active";
         }
-
+        oldCarouselhtml += " data-target='#carousel-example-1' data-slide-to='" + i + "' />";
+        carouselInnerhtml += "' style='max-width:50%; max-height:50%; margin:auto;'><img src='" + imgs[i] + "'/></div>";
     }
+    oldCarousel.html(oldCarouselhtml);
+    carouselInner.html(carouselInnerhtml);
 
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
     var modalImg = $("#img01");
     var captionText = $("#caption");
     modal.css('display', 'block');
