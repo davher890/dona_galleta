@@ -7,6 +7,7 @@ html
         link(rel='stylesheet', href='/bower_components/tether/dist/css/tether.css')
         link(rel='stylesheet', href='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.css')
         link(rel='stylesheet', href='/css/custom.css')
+        link(rel='stylesheet', href='/css/bootstrap_custom.css')
         link(rel='stylesheet', href='/css/font-awesome.css')
         link(rel='stylesheet', href='/css/image-modal.css')
 
@@ -61,9 +62,16 @@ html
 
         // The Modal
         #myModal.modal
-            span.close(style="padding-top:inherit") ×
-            img#img01.modal-content
-            #caption
+            #carousel-example-1.carousel.slide.carousel-fade(data-ride='carousel')
+                ol.carousel-indicators
+                .carousel-inner(role='listbox')
+
+                a.left.carousel-control(href='#carousel-example-1', role='button', data-slide='prev')
+                    span.icon-prev(aria-hidden='true')
+                    span.sr-only Previous
+                a.right.carousel-control(href='#carousel-example-1', role='button', data-slide='next')
+                    span.icon-next(aria-hidden='true')
+                    span.sr-only Next
 
         // Contact div
         #contactForm
