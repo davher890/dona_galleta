@@ -1,39 +1,35 @@
 
-div.container-fluid
-    div.row
-        div.col-md-4.offset-md-8
-            button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
-                i.material-icons.add Email
-                span.mdl-button__ripple-container
-                    span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
 
-    footer.mdl-mega-footer(style="bottom:0px; position:absolute; width:100%")
-        .mdl-mega-footer__middle-section
-            div.container-fluid
-                div.row
-                    div.col-md-6
-                        h3 Doña Galleta
-                            address
-                                p
-                                    i.fa.fa-map-marker Passeo San Millan de la Cogolla 22, 28050 Madrid
-                                    i.icon-phone(aria-hidden="true") 012345667
-                                    i.icon-envelope(aria-hidden="true") Mail
-                                    a(href="mailto:davher980@gmail.com") davher980@gmail.com
-                    div.col-md-6
-                        p and we hope you do too!
+footer.mdl-mega-footer(style="bottom:0; width:100%")
+    .mdl-mega-footer__middle-section
+        div.container-fluid
+            div.row
+                div.col-md-6
+                    h3 Doña Galleta
+                        address
+                            p
+                                i.fa.fa-map-marker Passeo San Millan de la Cogolla 22, 28050 Madrid
+                                i.icon-phone(aria-hidden="true") 012345667
+                                i.icon-envelope(aria-hidden="true") Mail
+                                a(href="mailto:davher980@gmail.com") davher980@gmail.com
+                div.col-md-6
+                    p and we hope you do too!
 
-        .mdl-mega-footer__bottom-section
-            .container-fluid
-                .row
-                    .col-md-4.text-right
-                        a.btn.btn-fb.waves-effect.waves-light(href='#')
-                            i.fa.fa-facebook.left
-                                |  Facebook
-                    .col-md-4.text-center
-                        a.btn.btn-in.waves-effect.waves-light(href='#')
-                            i.fa.fa-instagram.left
-                                |  Instagram
-                    .col-md-4.text-left
-                        a.btn.btn-wp.waves-effect.waves-light(href='#')
-                            i.fa.fa-wordpress.left
-                                |  Wordpress
+    .mdl-mega-footer__bottom-section
+        .container-fluid
+            .row
+                .col-md-4
+                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="float:right" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
+                        i.mdi.mdi-facebook
+                        span.mdl-button__ripple-container
+                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
+                .col-md-4
+                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="margin-left:50%" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
+                        i.mdi.mdi-instagram
+                        span.mdl-button__ripple-container
+                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
+                .col-md-4
+                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="float:left" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
+                        i.mdi.mdi-wordpress
+                        span.mdl-button__ripple-container
+                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")

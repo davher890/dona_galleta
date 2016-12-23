@@ -5,12 +5,15 @@ html
         //link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
         link(rel='stylesheet', href='/bower_components/material-design-lite/material.css')
         link(rel='stylesheet', href='/bower_components/tether/dist/css/tether.css')
+        link(rel='stylesheet', href='/bower_components/mdi/css/materialdesignicons.css')
         link(rel='stylesheet', href='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.css')
-        //link(rel='stylesheet', href='/css/custom.css')
         link(rel='stylesheet', href='/css/material.min.css')
-        //link(rel='stylesheet', href='/css/bootstrap_custom.css')
         link(rel='stylesheet', href='/css/font-awesome.css')
         link(rel='stylesheet', href='/css/image-modal.css')
+
+        link(rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.css")
+
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.js")
 
         script(src='/bower_components/jquery/dist/jquery.js')
         script(src='/bower_components/material-design-lite/material.js')
@@ -18,8 +21,6 @@ html
         script(src='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.iife.js')
         script(src='/js/imageModal.js')
         script(src='/js/sideNavBar.js')
-
-        link(rel="icon",type="image/png",href="https://www.instagram.com/miss.galleta/")
 
         script(src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js")
 
@@ -32,6 +33,20 @@ html
                 messagingSenderId: "707339080953"
             };
             firebase.initializeApp(config);
+
+            function init(){
+                var dialog = $('#contact-dialog')[0];
+                var showDialogButton = $('#contact-button')[0];
+                if (!dialog.showModal) {
+                    dialogPolyfill.registerDialog(dialog);
+                }
+                showDialogButton.addEventListener('click', function() {
+                    dialog.showModal();
+                });
+                dialog.querySelector('button#dialog-close').addEventListener('click', function () {
+                    dialog.close();
+                });
+            }
     body
 
         //- include header
@@ -51,6 +66,12 @@ html
                         a.mdl-navigation__link(href="#",onclick="openNav('cestas', 'Cestas')") Cestas
                         a.mdl-navigation__link(href="#",onclick="openNav('pedidos', 'Pedidos')") Pedidos
                         a.mdl-navigation__link(href="#",onclick="openNav('blog', 'Blog')") Blog
+                        div.container-fluid
+                            div.row
+                                button#contact-button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
+                                    i.mdi.mdi-email
+                                    span.mdl-button__ripple-container
+                                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
             .mdl-layout__drawer
                 #navigationTitle.span.mdl-layout-title Title
                 nav#navigationMenu.mdl-navigation
@@ -82,10 +103,11 @@ html
                         p.card-text
 
         // Contact div
-        #contactForm
-            .container-fluid
-                h2(style="cursor:default") Contact Us!
-                hr
+        //- #contactForm(style="position:absolute")
+        dialog#contact-dialog.mdl-dialog
+            h4.mdl-dialog__title(style="cursor:default") Contact Us!
+            hr
+            .mdl-dialog__content
                 form#contact_form.form-horizontal(action='mailto:someone@example.com', method='post')
                     fieldset
                         // Form Name
@@ -122,3 +144,5 @@ html
                                 button.btn.btn-warning.pull-right(type='submit')
                                     | Send
                                     span.fa.fa-paper-plane
+            .mdl-dialog__actions
+                button#dialog-close.mdl-button(type='button') Close

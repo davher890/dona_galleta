@@ -52,9 +52,16 @@ function showModal(data) {
 
 
 function showContactForm() {
-    if ($('#contactForm').css('visibility') === 'hidden') {
-        $('#contactForm').css('visibility', 'visible')
-    } else {
-        $('#contactForm').css('visibility', 'hidden')
+    var dialog = $('#contact-dialog')[0];
+    var showDialogButton = $('#contact-button')[0];
+    if (!dialog.showModal) {
+        dialogPolyfill.registerDialog(dialog);
     }
+    showDialogButton.addEventListener('click', function() {
+        dialog.showModal();
+    });
+    dialog.querySelector('button#dialog-close').addEventListener('click', function() {
+        dialog.close();
+    })
+    dialog.showModal();
 }
