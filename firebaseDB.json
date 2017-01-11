@@ -4,53 +4,25 @@
         "descripcion": "Descripcion del articulo",
         "precio": 99,
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0273.JPG?alt=media&token=c5915527-3053-4501-b691-e13383077377",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0274.JPG?alt=media&token=f539f9b6-9231-435f-8729-938b5d4b143a",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0275.JPG?alt=media&token=57065ac5-513d-494c-af3a-472eca5ba7ee",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0276.JPG?alt=media&token=fb8bf617-1543-46bf-96ae-a75f11217335"
-        ]
-    }, {
-        "nombre": "Nombre del articulo",
-        "descripcion": "Descripcion del articulo",
-        "precio": 99,
-        "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0309.JPG?alt=media&token=2f4dee71-5cc7-4839-9c53-84abb18f21b9",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0314.JPG?alt=media&token=6396a7e5-ff1c-4647-a832-c58da80e5569"
-        ]
-    }, {
-        "nombre": "Nombre del articulo",
-        "descripcion": "Descripcion del articulo",
-        "precio": 99,
-        "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0318.JPG?alt=media&token=6fdb9a1a-7de6-4def-a52e-d5eb04c6fdfe",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0320.JPG?alt=media&token=b6baccca-72b8-4bc9-b984-b72118e8e0e9"
-        ]
-    }, {
-        "nombre": "Nombre del articulo",
-        "descripcion": "Descripcion del articulo",
-        "precio": 99,
-        "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0322.JPG?alt=media&token=8de49fe0-b3cf-4c55-8928-00f039c56cd4",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0325.JPG?alt=media&token=ab38eaa5-eb05-484c-8e9f-802feb895b95"
-        ]
-    }, {
-        "nombre": "Nombre del articulo",
-        "descripcion": "Descripcion del articulo",
-        "precio": 99,
-        "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0331.JPG?alt=media&token=f95a40fb-9497-4651-b8bd-52db72041546",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/DSC_0334.JPG?alt=media&token=383801e9-5d43-417a-8fb9-91dc1c76b557"
+            "/assets/images/braguitas_1.jpg",
+            "/assets/images/braguitas_2.jpg"
         ]
     }],
     "chupeteros": [{
-        "nombre": "Nombre del articulo",
+        "nombre": "Chupeteros personalizados",
         "descripcion": "Descripcion del articulo",
         "precio": 23,
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/chupeteros%2FDSC_0239.JPG?alt=media&token=89575289-1624-4f95-91a1-90d4ca26b27a",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/chupeteros%2FDSC_0218.JPG?alt=media&token=49b1c453-9283-48e8-9ea7-807a13d331be",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/chupeteros%2FDSC_0244.JPG?alt=media&token=476c0897-6cbf-4aa0-82e1-fc8f2d9dabf8",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/chupeteros%2FDSC_0248.JPG?alt=media&token=0d7e6e8f-7f7d-48b8-b5ba-a5d4a6097155"
+            "/assets/images/chupetero_1.jpg"
+        ]
+    },
+    {
+        "nombre": "Chupetero de tela",
+        "descripcion": "Descripcion del articulo",
+        "precio": 23,
+        "img": [
+            "/assets/images/chupetero_2.jpg",
+            "/assets/images/chupetero_3.jpg"
         ]
     }],
     "cestas": [{
@@ -58,10 +30,7 @@
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cestas%2FDSC_0266.JPG?alt=media&token=f2488033-d75a-4c86-8c66-e1d5ad15b973",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cestas%2FDSC_0340.JPG?alt=media&token=05f11c36-90d5-4fd3-a017-c80ea6ade007",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cestas%2FDSC_0341.JPG?alt=media&token=1bbf0929-df5f-4738-a261-707d538314a4",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cestas%2FDSC_0342.JPG?alt=media&token=56398225-4415-465a-b01c-190ba22534a2"
+            "/assets/images/cesta_1.jpg"
         ]
     }],
     "conjuntos": [{
@@ -69,18 +38,16 @@
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/conjuntos%2FDSC_0272.JPG?alt=media&token=4e1706ae-4c60-4999-9fcd-5db49edac1b0",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/conjuntos%2FDSC_0269.JPG?alt=media&token=663564de-ab94-4555-94c5-b9d839e43ce5",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/conjuntos%2FDSC_0271.JPG?alt=media&token=80c7483f-3f04-4144-bcde-f35a79dc140e"
+            "/assets/images/conjunto_1.jpg"
         ]
     }],
     "cojin": [{
-        "nombre": "Nombre del articulo",
-        "descripcion": "Descripcion del articulo",
+        "nombre": "Conjines con formas",
+        "descripcion": "Cojines con formas de estrella, nube, luna...",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cojines%2FDSC_0289.JPG?alt=media&token=9981fc87-e96d-4bbf-a01e-4653ce0da656",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/cojines%2FDSC_0292.JPG?alt=media&token=9a2f0d42-1d89-4ef4-b873-e8cbad1e8694"
+            "/assets/images/cojin_1.jpg",
+            "/assets/images/cojin_2.jpg"
         ]
     }],
     "sujetadores": [{
@@ -88,16 +55,7 @@
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01%20Algas%20Teja.JPG?alt=media&token=2bd3803f-fafc-4cc6-b07d-013a2c58c016",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01%20JardinTropical.JPG?alt=media&token=1e138e72-7ad1-4dab-9cec-bef9b390a2da",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01%20Mont%20Blanc.JPG?alt=media&token=f3488cdd-e033-4d6c-96e5-e5a3d762feaa",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01BosqueCoral.JPG?alt=media&token=372ffd20-2fd2-41d8-89b2-e0cf5aa9f411",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01FloresOto%C3%B1o.JPG?alt=media&token=a57e7013-e10b-4c81-85da-d8354d624dbf",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F01SolAmarillo.JPG?alt=media&token=c3cd743c-4b55-42e2-a447-cc6bfae06d46",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F02%20Cocotero.jpg?alt=media&token=2af0576a-77af-4cff-a80b-7152358bcab3",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F02%20Mapa.jpg?alt=media&token=82f13301-bced-40cb-ac1b-08cdc9523f72",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F02%20Nenufar.jpg?alt=media&token=df98a80a-dc46-48fd-9b78-ba94b5c594ad",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/sujetadores%2F02%20Vulcano.jpg?alt=media&token=883c398b-aeae-4b0c-9495-5411861ce458"
+            "/assets/images/sujetador_1.jpg"
         ]
     }],
     "pulseras": [{
@@ -105,18 +63,29 @@
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/pulseras%2FDSC_0259.JPG?alt=media&token=323a9cbb-75e8-407b-a937-d786fdfbaa96",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/pulseras%2FDSC_0258.JPG?alt=media&token=c5acbed4-f2f9-4b64-9fbb-0fb38e3eeb3d"
+            "/assets/images/pulsera_1.jpg",
+            "/assets/images/pulsera_2.jpg",
+            "/assets/images/pulsera_3.jpg"
 
         ]
     }],
     "mantas": [{
+        "nombre": "Manta con estampado",
+        "descripcion": "Mantas con estampados de anclas, estrellas...",
+        "precio": "23",
+        "img": [
+            "/assets/images/manta_1.jpg",
+            "/assets/images/manta_2.jpg",
+            "/assets/images/manta_3.jpg",
+            "/assets/images/manta_4.jpg"
+        ]
+    }],
+    "iguales": [{
         "nombre": "Nombre del articulo",
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/mantas%2FDSC_0282.JPG?alt=media&token=24996f2d-08da-461e-bf08-19e47c750231",
-            "https://firebasestorage.googleapis.com/v0/b/missgalleta-a947e.appspot.com/o/mantas%2FDSC_0302.JPG?alt=media&token=f8506f51-664f-4e8a-b96d-ab892c44b8f2"
+            "/assets/images/iguales_1.jpg"
         ]
     }]
 }

@@ -17,7 +17,7 @@ var typeMenu = {
     bebes: [
         ['chupeteros', 'Chupeteros'],
         ['braguitas', 'Braguitas'],
-        ['manta', 'Manta'],
+        ['mantas', 'Mantas'],
         ['toalla', 'Toalla'],
         ['cojin', 'Cojín']
     ],

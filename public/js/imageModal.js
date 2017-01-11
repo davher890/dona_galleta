@@ -30,7 +30,7 @@ function showModal(data) {
             carouselInnerhtml += "active";
         }
         oldCarouselhtml += " data-target='#carousel-example-1' data-slide-to='" + i + "' />";
-        carouselInnerhtml += "' style='max-width:50%; max-height:50%; margin:auto;'><img src='" + imgs[i] + "'/></div>";
+        carouselInnerhtml += "' style='max-width:50%; height:100%; margin:auto;'><img src='" + imgs[i] + "'/></div>";
     }
     oldCarousel.html(oldCarouselhtml);
     carouselInner.html(carouselInnerhtml);
