@@ -1,0 +1,10 @@
+.mdl-layout__header .mdl-layout__drawer-button {
+    display : none
+}
+
+.mdl-layout .mdl-layout__header a,
+.mdl-layout .mdl-layout__drawer-button a{
+  color: black;
+  font: bold;
+
+}

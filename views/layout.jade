@@ -10,6 +10,7 @@ html
         link(rel='stylesheet', href='/css/material.min.css')
         link(rel='stylesheet', href='/css/font-awesome.css')
         link(rel='stylesheet', href='/css/image-modal.css')
+        link(rel='stylesheet', href='/css/custom.css')
 
         link(rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/dialog-polyfill/0.4.2/dialog-polyfill.min.css")
 
@@ -37,12 +38,10 @@ html
                 });
             }
 
-
-    body(onload="$('.mdl-layout__header .mdl-layout__drawer-button').css('display', 'none')")
-
+    body
         //- include header
-        .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
-            header.mdl-layout__header
+        .mdl-layout.mdl-js-layout.mdl-layout--fixed-header(style="background-image: url('/img/tela-infantil-topos-jules-et-julie-jus19101114-237827.jpg');background-position:center; ")
+            header.mdl-layout__header.mdl-layout__header--transparent
                 .mdl-layout__header-row
                     // Title
                     a(href="/")
@@ -67,9 +66,9 @@ html
                 #navigationTitle.span.mdl-layout-title
                 nav#navigationMenu.mdl-navigation
 
-            main.mdl-layout__content(style="background-image: url('/img/tela-infantil-topos-jules-et-julie-jus19101114-237827.jpg');background-position:center; ")
+            main.mdl-layout__content
                 .page-content
-                    div(style="padding:3%")
+                    div(style="padding:5%")
                         block content
 
                     include footer
