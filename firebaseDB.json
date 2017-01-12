@@ -55,7 +55,8 @@
         "descripcion": "Descripcion del articulo",
         "precio": "23",
         "img": [
-            "/assets/images/sujetador_1.jpg"
+            "/assets/images/sujetador_1.jpg",
+            "/assets/images/sujetador_2.jpg"
         ]
     }],
     "pulseras": [{

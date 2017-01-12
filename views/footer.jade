@@ -1,35 +1,31 @@
 
 
-footer.mdl-mega-footer(style="bottom:0; width:100%")
+footer.mdl-mega-footer(style="bottom:0; width:100%; background-color:#C0D6E3")
     .mdl-mega-footer__middle-section
         div.container-fluid
             div.row
                 div.col-md-6
-                    h3 Doña Galleta
-                        address
-                            p
-                                i.fa.fa-map-marker Passeo San Millan de la Cogolla 22, 28050 Madrid
-                                i.icon-phone(aria-hidden="true") 012345667
-                                i.icon-envelope(aria-hidden="true") Mail
-                                a(href="mailto:davher980@gmail.com") davher980@gmail.com
-                div.col-md-6
-                    p and we hope you do too!
+                    div
+                        span SÍGUENOS EN
+                    div
+                        ul
+                            li(style="display:inline")
+                                button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored(onclick='showContactForm()')
+                                    i.mdi.mdi-facebook
+                            li(style="display:inline")
+                                button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored(onclick='showContactForm()')
+                                    i.mdi.mdi-instagram
+                            li(style="display:inline")
+                                button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored(onclick='showContactForm()')
+                                    i.mdi.mdi-wordpress
 
-    .mdl-mega-footer__bottom-section
-        .container-fluid
-            .row
-                .col-md-4
-                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="float:right" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
-                        i.mdi.mdi-facebook
-                        span.mdl-button__ripple-container
-                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
-                .col-md-4
-                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="margin-left:50%" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
-                        i.mdi.mdi-instagram
-                        span.mdl-button__ripple-container
-                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
-                .col-md-4
-                    button.mdl-button.mdl-js-button.mdl-button--fab.mdl-button--colored.mdl-js-ripple-effect(style="float:left" data-upgraded=",MaterialButton,MaterialRipple" onclick='showContactForm()')
-                        i.mdi.mdi-wordpress
-                        span.mdl-button__ripple-container
-                        span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
+                div.col-md-6
+                    img(src='/assets/logos/donagalleta_140_61.jpg')
+                    address
+                        p
+                            i.mdi.mdi-map-marker Passeo San Millan de la Cogolla 22, 28050 Madrid
+                        p
+                            i.mdi.mdi-cellphone(aria-hidden="true") 6012345667
+                        p
+                            i.mdi.mdi-contact-mail(aria-hidden="true")  Mail
+                                a(href="mailto:davher980@gmail.com") davher980@gmail.com
