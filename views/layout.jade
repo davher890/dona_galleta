@@ -2,8 +2,8 @@ doctype html
 html
     head
         title= title
-        //link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
-        link(rel='stylesheet', href='/bower_components/material-design-lite/material.css')
+        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.css')
+        //link(rel='stylesheet', href='/bower_components/material-design-lite/material.css')
         link(rel='stylesheet', href='/bower_components/tether/dist/css/tether.css')
         link(rel='stylesheet', href='/bower_components/mdi/css/materialdesignicons.css')
         link(rel='stylesheet', href='/bower_components/bootstrap-material-design/dist/bootstrap-material-design.css')
@@ -22,18 +22,7 @@ html
         script(src='/js/imageModal.js')
         script(src='/js/sideNavBar.js')
 
-        script(src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js")
-
         script.
-            var config = {
-                apiKey: "AIzaSyBlH-zTU4Veg34fEpJwKhZgfNK17zAjiys",
-                authDomain: "missgalleta-a947e.firebaseapp.com",
-                databaseURL: "https://missgalleta-a947e.firebaseio.com",
-                storageBucket: "",
-                messagingSenderId: "707339080953"
-            };
-            firebase.initializeApp(config);
-
             function init(){
                 var dialog = $('#contact-dialog')[0];
                 var showDialogButton = $('#contact-button')[0];
@@ -47,7 +36,9 @@ html
                     dialog.close();
                 });
             }
-    body
+
+
+    body(onload="$('.mdl-layout__header .mdl-layout__drawer-button').css('display', 'none')")
 
         //- include header
         .mdl-layout.mdl-js-layout.mdl-layout--fixed-header
@@ -72,8 +63,8 @@ html
                                     i.mdi.mdi-email
                                     span.mdl-button__ripple-container
                                         span.mdl-ripple.is-animating(style="width: 160.392px; height: 160.392px; transform: translate(-50%, -50%) translate(19px, 18px);")
-            .mdl-layout__drawer
-                #navigationTitle.span.mdl-layout-title Title
+            .mdl-layout__drawer(style="background-color:#C0D6E3")
+                #navigationTitle.span.mdl-layout-title
                 nav#navigationMenu.mdl-navigation
 
             main.mdl-layout__content(style="background-image: url('/img/tela-infantil-topos-jules-et-julie-jus19101114-237827.jpg');background-position:center; ")
