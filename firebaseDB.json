@@ -15,8 +15,7 @@
         "img": [
             "/assets/images/chupetero_1.jpg"
         ]
-    },
-    {
+    }, {
         "nombre": "Chupetero de tela",
         "descripcion": "Descripcion del articulo",
         "precio": 23,
@@ -41,13 +40,19 @@
             "/assets/images/conjunto_1.jpg"
         ]
     }],
-    "cojin": [{
-        "nombre": "Conjines con formas",
-        "descripcion": "Cojines con formas de estrella, nube, luna...",
-        "precio": "23",
+    "cojines": [{
+        "nombre": "Conjín nube",
+        "descripcion": "Este cojín tiene unas medidas de 30×50 cm aprox. y está diseñado y hecho a mano en España por Doña Galleta. Combínalo con la estrella para conseguir el pack de cojines por 30€ los dos.",
+        "precio": "16.95",
         "img": [
-            "/assets/images/cojin_1.jpg",
             "/assets/images/cojin_2.jpg"
+        ]
+    }, {
+        "nombre": "Conjín estrella",
+        "descripcion": "Este cojín tiene unas medidas de 40×40 cm y está diseñado y hecho a mano en España por Doña Galleta. Combínalo con la nube para conseguir el pack de cojines por 30€ los dos.",
+        "precio": "16.95",
+        "img": [
+            "/assets/images/cojin_1.jpg"
         ]
     }],
     "sujetadores": [{
@@ -87,6 +92,40 @@
         "precio": "23",
         "img": [
             "/assets/images/iguales_1.jpg"
+        ]
+    }],
+    "vestidos": [{
+        "nombre": "Vestido flores marrón",
+        "descripcion": "Vestido de flores en tonos tierra.\nTallas disponibles: Desde 3m-24m",
+        "precio": "25",
+        "img": [
+            "/assets/images/vestido_tierra_1.jpg",
+            "/assets/images/vestido_tierra_2.jpg",
+            "/assets/images/vestido_tierra_3.jpg",
+            "/assets/images/vestido_tierra_4.jpg",
+            "/assets/images/vestido_tierra_5.jpg"
+        ]
+    }, {
+        "nombre": "Vestido flores azul",
+        "descripcion": "Vestido de flores en tonos azules.\nTallas disponibles: Desde 3m-24m",
+        "precio": "25",
+        "img": [
+            "/assets/images/vestido_azul_1.jpg",
+            "/assets/images/vestido_azul_2.jpg",
+            "/assets/images/vestido_azul_3.jpg"
+        ]
+    }],
+    "culottes": [{
+        "nombre": "Culotte",
+        "descripcion": "Este culotte 100% algodón está diseñado y hecho a mano en España por Doña Galleta. En invierno, puedes combinarlos con leotardos o calcetines. Tallas disponibles: 0-24 meses",
+        "precio": "18.95",
+        "img": [
+            "/assets/images/culotte_1.jpg",
+            "/assets/images/culotte_2.jpg",
+            "/assets/images/culotte_3.jpg",
+            "/assets/images/culotte_4.jpg",
+            "/assets/images/culotte_5.jpg"
+
         ]
     }]
 }

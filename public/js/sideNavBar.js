@@ -15,21 +15,23 @@ function closeNav() {
 
 var typeMenu = {
     bebes: [
-        ['chupeteros', 'Chupeteros'],
-        ['braguitas', 'Braguitas'],
         ['mantas', 'Mantas'],
-        ['toalla', 'Toalla'],
-        ['cojin', 'Cojín']
+        ['cojines', 'Cojínes'],
+        ['chupeteros', 'Chupeteros'],
+        ['vestidos', 'Vestidos'],
+        ['culottes', 'Culottes'],
+        ['conjuntos', 'Conjuntos'],
+        ['bolsas', 'Bolsas']
     ],
     mamas: [
-        ['sujetadores', 'Sujetadores'],
         ['pulseras', 'Pulseras'],
-        ['iguales', 'Iguales']
+        ['sujetadores', 'Sujetadores'],
+        ['iguales', 'Camisetas "vamos iguales"']
     ],
     decoracion: [
-        ['piezas_madera', 'Piezas madera'],
-        ['luces', 'Luces'],
-        ['cojin', 'Cojín']
+        ['pizarras', 'Pizarras'],
+        ['cojin', 'Cojínes'],
+        ['guirnaldas', 'Guirnaldas'],
     ],
     cestas: [
         ['recien_nacido', 'Recién nacido'],
