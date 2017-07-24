@@ -9,11 +9,19 @@ var path = require('path');
 var index = require('./routes/index');
 var galeria = require('./routes/galeria');
 var contacto = require('./routes/contacto');
+var session = require('./routes/session');
+var cart = require('./routes/cart');
+var admin = require('./routes/admin');
+
+// DB initialize
+var db = require('./db');
+db.createTables();
+
 
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'public/views'));
 app.set('view engine', 'jade');
 
 app.use(bodyParser.json());
@@ -32,6 +40,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(index);
 app.use(galeria);
 app.use(contacto);
+app.use(session);
+app.use(cart);
+app.use(admin);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
